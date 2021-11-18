@@ -17,13 +17,17 @@ h2 {
 
 p {
     color: #ff0000;
+    /* Most paragraphs will be red */
     text-shadow: 10px 2px #ff6a00;
     text-align: left;
+    background-color:white;
 }
-
+    /* Right aligned paragraphs will be white
+    */
     p.right {
         color: white;
         text-align: right;
+        background-color: black;
     }
 
     p.large {
