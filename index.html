@@ -4,10 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <title>Demo of CSS</title>
+    <!-- The icon is supposed to be a magic penguin -->
     <link rel="shortcut icon" href="favicon.ico" />
+
     <link rel="stylesheet" type="text/css" href="SimpleStyle.css">
     <style>
-       
+       /* Internal style can still be added*/
     </style>
 </head>
 <body >
@@ -18,5 +20,8 @@
     <p class="right large">
         This will be white and right aligned and large!
     </p>
+    <h3>HSL Text without overwrite of CSS</h3>
+    <!-- The following internal in line style will overwrite that of the external or internal CSS-->
+    <h3 style="background-color:#00ff4c;">The HSL text</h3>
 </body>
 </html>

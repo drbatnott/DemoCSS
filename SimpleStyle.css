@@ -8,11 +8,25 @@ h1 {
     font-size: 40px;
     text-align: center;
 }
-
+h3{
+    /*
+        HSL colours are Hue Saturation and lightness
+    */
+    color:hsl(0,100%,50%);
+}
 h2 {
-    color: #ff6a00;
+    /*
+        hex colors can also be done as single characters
+        in which case #f60 is the same as #ff6600
+    */
+    color: #f60;
     font-size: medium;
     text-align: left;
+    border: 5px dashed #ffd800;
+    /* RGBA takes the red green blue as integers and float for alpha
+        0.1 for alpha will be 10% - i.e. nearly transparent 
+    */
+    background-color: rgba(255, 99, 71, 0.1);
 }
 
 p {
