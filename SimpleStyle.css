@@ -1,0 +1,36 @@
+﻿body {
+    background-color: #353535;
+}
+
+h1 {
+    color: aqua;
+    font-family: 'Lucida Sans';
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff6a00;
+    font-size: medium;
+    text-align: left;
+}
+
+p {
+    color: #ff0000;
+    text-shadow: 10px 2px #ff6a00;
+    text-align: left;
+}
+
+    p.right {
+        color: white;
+        text-align: right;
+    }
+
+    p.large {
+        font-size: 200%;
+    }
+
+#head2 {
+    text-align: center;
+    color: white;
+}
