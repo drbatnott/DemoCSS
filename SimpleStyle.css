@@ -1,5 +1,6 @@
 ﻿body {
-    background-image: url("stone.png");/*"dirt.png");/* Formerly background-color: #353535; */
+   /* background-image: url("stone.png");/*"dirt.png");/* Formerly background-color: #353535; */
+
 }
 
 h1 {
@@ -30,11 +31,11 @@ h2 {
 }
 
 p {
-    color: #ff0000;
+    color: #ff8888;
     /* Most paragraphs will be red */
     text-shadow: 10px 2px #ff6a00;
     text-align: left;
-    background-color:white;
+    background-color:darkblue;
 }
     /* Right aligned paragraphs will be white
     */
