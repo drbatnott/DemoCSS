@@ -4,8 +4,8 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CSS Background Example 1</title>
-<!--<link href="simple.css" rel="stylesheet" type="text/css">-->
+<title>CSS Background Example</title>
+<link href="SimpleStyle.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="../images/favicon.ico" />
 	
     <style>
@@ -18,8 +18,8 @@
     background-position
     */
          body {
-             background: #ffff url("sparkle.png") no-repeat fixed top left;
-             margin-left: 300px;
+             background: #fff url("sparkle.png") repeat-y scroll top left;
+             margin-left: 400px;
         }
         h1{
              border-top: 5px solid #fe7f32;
@@ -27,12 +27,13 @@
 			 border-bottom: thick ridge rgba(198,28,31,1.00);
 			 border-left: 10px groove hsla(239,70%,35%,1.00);
         }
+		
     </style>
    
 </head>
 <body>
 <h1>Sparkle the Penguin wizard</h1>
-<p>Once upon a time there was a penguin wizard. He was a very happy penguin.<br />
+<p class="right">Once upon a time there was a penguin wizard. He was a very happy penguin.<br />
 He could turn anything into fish just by pointing his wand at it and<br/>
 declaring it to be fish.<br/>
 The other penguins were often jealous of sparkle so the tried to eject<br>
