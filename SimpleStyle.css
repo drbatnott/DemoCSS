@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #353535;
+    background-image: url("stone.png");/*"dirt.png");/* Formerly background-color: #353535; */
 }
 
 h1 {

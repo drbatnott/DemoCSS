@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Background Example</title>
+<!--<link href="simple.css" rel="stylesheet" type="text/css">-->
+	<link rel="shortcut icon" href="../images/favicon.ico" />
+	
+    <style>
+    /*
+    shorthand order
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+    */
+         body {
+             background: #ffff url("sparkle.png") no-repeat fixed top left;
+             margin-left: 400px;
+        }
+        h1{
+             border-top: 5px solid #fe7f32;
+             border-right: 8px dashed RGB(0f,7f,8f);
+        }
+    </style>
+   
+</head>
+<body>
+<h1>Sparkle the Penguin wizard</h1>
+<p>Once upon a time there was a penguin wizard. He was a very happy penguin.<br />
+He could turn anything into fish just by pointing his wand at it and<br/>
+declaring it to be fish.<br/>
+The other penguins were often jealous of sparkle so the tried to eject<br>
+him from the island where they lived. However, they were very scared<br />
+of upsetting him. He might turn them into a fish.<br/>
+One night when Sparkle was sleeping a group of the other penguins<br>
+set off for the other side of the island. They knew that there were<br>
+men living there who had large boats. they used for fishing. <br/>
+They negotiated with the men to come and capture Sparkle as they<br/>
+said he could work for them,turning things into fish and in return<br>
+Sparkle would be able to try other sorts of things.<br/>
+The men were doubtful. They had never met talking penguins before<br/>
+and besides they worried that the penguins would take over the fishing<br/>
+grounds and what if Sparkle did not want to work with them? </p>
+<p>I really don't have the time or inspiration to write much more so I will<br>
+increase the text size or just repeat the text above so that I have enough<br/>
+text to demonstrate what I need to show.
+</p>
+<h1>Sparkle the Penguin wizard</h1>
+<p>Once upon a time there was a penguin wizard. He was a very happy penguin.<br />
+He could turn anything into fish just by pointing his wand at it and<br/>
+declaring it to be fish.<br/>
+The other penguins were often jealous of sparkle so the tried to eject<br>
+him from the island where they lived. However, they were very scared<br />
+of upsetting him. He might turn them into a fish.<br/>
+One night when Sparkle was sleeping a group of the other penguins<br>
+set off for the other side of the island. They knew that there were<br>
+men living there who had large boats. they used for fishing. <br/>
+They negotiated with the men to come and capture Sparkle as they<br/>
+said he could work for them,turning things into fish and in return<br>
+Sparkle would be able to try other sorts of things.<br/>
+The men were doubtful. They had never met talking penguins before<br/>
+and besides they worried that the penguins would take over the fishing<br/>
+grounds and what if Sparkle did not want to work with them? </p>
+<p>I really don't have the time or inspiration to write much more so I will<br>
+increase the text size or just repeat the text above so that I have enough<br/>
+text to demonstrate what I need to show.
+</p>
+</body>
+</html>
